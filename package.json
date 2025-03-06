@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/typography": "^0.5.10",
+        "autoprefixer": "^10.4.17",
+        "axios": "^1.6.7",
+        "laravel-vite-plugin": "^1.0.2",
+        "postcss": "^8.4.35",
+        "prettier": "^3.2.5",
+        "prettier-plugin-tailwindcss": "^0.5.11",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.1.4"
+    },
+    "dependencies": {
+        "@alpinejs/collapse": "^3.13.5",
+        "@alpinejs/intersect": "^3.13.5",
+        "@alpinejs/persist": "^3.13.5",
+        "@caneara/iodine": "^8.5.0",
+        "@fortawesome/fontawesome-free": "^6.5.1",
+        "@popperjs/core": "^2.11.8",
+        "alpinejs": "^3.13.5",
+        "apexcharts": "^3.46.0",
+        "cleave.js": "^1.6.0",
+        "dayjs": "^1.11.10",
+        "filepond": "^4.30.6",
+        "filepond-plugin-image-preview": "^4.6.12",
+        "flatpickr": "^4.6.13",
+        "gridjs": "^6.1.1",
+        "highlight.js": "^11.9.0",
+        "preline": "^2.4.1",
+        "quill": "^1.3.7",
+        "simplebar": "^6.2.5",
+        "sortablejs": "^1.15.2",
+        "swiper": "^11.0.7",
+        "tippy.js": "^6.3.7",
+        "toastify-js": "^1.12.0",
+        "tom-select": "^2.3.1"
+    }
+}

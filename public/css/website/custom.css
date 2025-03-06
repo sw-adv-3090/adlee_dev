@@ -1,0 +1,66 @@
+.btn-website {
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px; /* Fully rounded */
+    padding: 0.5rem 1.25rem; /* px-5 py-2 in Tailwind (approx 20px horizontal, 8px vertical) */
+    text-align: center;
+    letter-spacing: 0.05em; /* tracking-wide in Tailwind */
+    outline: none;
+    transition: all 0.2s ease-in-out; /* transition-all duration-200 */
+    font-weight: 500; /* font-medium in Tailwind */
+    color: #07277c; /* text-[#07277c] */
+    border: 1px solid #e2e8f0; /* border-slate-200 */
+    background-color: transparent; /* Default transparent background */
+    text-decoration: none;
+    white-space: nowrap; /* text-nowrap in Tailwind */
+    font-size: 14px;
+
+    /* Hover styles */
+    &:hover {
+        background-color: #f8fafc; /* hover:bg-slate-150 */
+    }
+
+    /* Focus styles */
+    &:focus {
+        background-color: #f8fafc; /* focus:bg-slate-150 */
+    }
+
+    /* Active styles */
+    &:active {
+        background-color: rgba(248, 250, 252, 0.8); /* active:bg-slate-150/80 */
+    }
+
+    /* Disabled styles */
+    &:disabled {
+        pointer-events: none; /* disabled:pointer-events-none */
+    }
+
+    /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+        border-color: #3b3f4f; /* dark:border-navy-500 */
+        color: #d9f0ff; /* dark:text-accent-light */
+
+        &:hover {
+            background-color: #3b3f4f; /* dark:hover:bg-navy-500 */
+        }
+
+        &:focus {
+            background-color: #3b3f4f; /* dark:focus:bg-navy-500 */
+        }
+
+        &:active {
+            background-color: rgba(
+                59,
+                63,
+                79,
+                0.9
+            ); /* dark:active:bg-navy-500/90 */
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+}

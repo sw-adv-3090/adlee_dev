@@ -1,0 +1,37 @@
+@font-face{font-family:"Work Sans";font-style:normal;font-weight:400;font-display:fallback;src:url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/work-sans/work-sans.woff2') format('woff2'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/work-sans/work-sans.woff') format('woff'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/work-sans/work-sans.ttf') format('truetype');}
+@font-face{font-family:Prata;font-style:normal;font-weight:400;font-display:fallback;src:url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/prata/prata.woff2') format('woff2'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/prata/prata.woff') format('woff'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/prata/prata.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans Thin";font-style:normal;font-weight:100;font-display:fallback;src:url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Thin.woff2') format('woff2'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Thin.woff') format('woff'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans-thin_normal_100.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:400;font-display:fallback;src:url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Regular.woff2') format('woff2'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Regular.woff') format('woff'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans_normal_400.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans";font-style:italic;font-weight:400;font-display:fallback;src:url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Italic.woff2') format('woff2'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Italic.woff') format('woff'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans_italic_400.ttf') format('truetype');}
+@font-face{font-family:"IBM Plex Sans";font-style:normal;font-weight:700;font-display:fallback;src:url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Bold.woff2') format('woff2'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/IBMPlexSans-Bold.woff') format('woff'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/ibm-plex-mono/ibm-plex-sans_normal_700.ttf') format('truetype');}
+@font-face{font-family:Inter;font-style:normal;font-weight:100 900;font-display:fallback;src:url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/inter/Inter-Regular.woff2') format('woff2'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/inter/Inter-Regular.woff') format('woff'), url('https://web.archive.org/web/20240414221812im_/https://adlee.io/wp-content/themes/variations/assets/fonts/inter/inter_normal_100-900.ttf') format('truetype');}
+:root {
+	--wpforms-field-border-radius: 3px;
+--wpforms-field-background-color: #ffffff;
+--wpforms-field-border-color: rgba( 0, 0, 0, 0.25 );
+--wpforms-field-text-color: rgba( 0, 0, 0, 0.7 );
+--wpforms-label-color: rgba( 0, 0, 0, 0.85 );
+--wpforms-label-sublabel-color: rgba( 0, 0, 0, 0.55 );
+--wpforms-label-error-color: #d63637;
+--wpforms-button-border-radius: 3px;
+--wpforms-button-background-color: #066aab;
+--wpforms-button-text-color: #ffffff;
+--wpforms-page-break-color: #066aab;
+--wpforms-field-size-input-height: 43px;
+--wpforms-field-size-input-spacing: 15px;
+--wpforms-field-size-font-size: 16px;
+--wpforms-field-size-line-height: 19px;
+--wpforms-field-size-padding-h: 14px;
+--wpforms-field-size-checkbox-size: 16px;
+--wpforms-field-size-sublabel-spacing: 5px;
+--wpforms-field-size-icon-size: 1;
+--wpforms-label-size-font-size: 16px;
+--wpforms-label-size-line-height: 19px;
+--wpforms-label-size-sublabel-font-size: 14px;
+--wpforms-label-size-sublabel-line-height: 17px;
+--wpforms-button-size-font-size: 17px;
+--wpforms-button-size-height: 41px;
+--wpforms-button-size-padding-h: 15px;
+--wpforms-button-size-margin-top: 10px;
+
+}

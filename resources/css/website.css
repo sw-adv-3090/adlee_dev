@@ -1,0 +1,8 @@
+@import "tailwindcss/base";
+@import "./base.css";
+@import "tailwindcss/components";
+/* @import "./components.css"; */
+@import "./components/card.css";
+@import "./components/button.css";
+@import "./components/badge.css";
+@import "tailwindcss/utilities";

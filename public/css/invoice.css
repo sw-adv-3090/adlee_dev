@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    padding: 3rem 1.25rem;
+}
+
+@media (min-width: 640px) {
+    .card {
+        padding: 3rem 4.5rem;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 640px) {
+    .flex-container {
+        flex-direction: row;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    .text-left {
+        text-align: left;
+    }
+}
+
+.text-right {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+    .text-right {
+        text-align: right;
+        margin-top: 0;
+    }
+}
+
+.heading-primary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3490dc;
+}
+
+.dark .heading-primary {
+    color: #c3e6e5;
+}
+
+.address,
+.invoice-info,
+.client-info,
+.payment-details,
+.total-details {
+    padding-top: 0.5rem;
+    line-height: 1.5;
+}
+
+.divider {
+    margin: 1.75rem 0;
+    height: 1px;
+    background-color: #e2e8f0;
+}
+
+.dark .divider {
+    background-color: #2a4365;
+}
+
+.table-container {
+    overflow-x: auto;
+    min-width: 100%;
+}
+
+.invoice-table {
+    width: 100%;
+    text-align: left;
+}
+
+.invoice-table th,
+.invoice-table td {
+    padding: 0.75rem 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.invoice-table th {
+    background-color: #e2e8f0;
+    color: #2d3748;
+}
+
+.dark .invoice-table th {
+    background-color: #2a4365;
+    color: #e2e8f0;
+}
+
+.invoice-table td {
+    background-color: #f7fafc;
+}
+
+.font-normal {
+    font-weight: 5=400;
+}
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.description {
+    font-size: 0.875rem;
+}
+
+.final-total {
+    font-size: 1.25rem;
+    color: #3490dc;
+}
+
+.dark .final-total {
+    color: #c3e6e5;
+}
+.logo {
+    width: 10%;
+    object-fit: contain;
+}
+.mb-1 {
+    margin-bottom: 0.25rem;
+}
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+.pt-0 {
+    padding-top: 0 !important;
+}
+.pt-1 {
+    padding-top: 0.25rem !important;
+}
+.capitalize {
+    text-transform: capitalize !important;
+}
+.w-full {
+    width: 100%;
+}
